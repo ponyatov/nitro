@@ -1,0 +1,12 @@
+*~
+*.swp
+*.log
+
+/docs/
+/nitro/
+
+__pycache__/
+
+/buildroot-*/
+
+!.gitignore

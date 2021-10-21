@@ -1,0 +1,23 @@
+
+# \ cpu
+CONFIG_X86_GENERIC=y
+# / cpu
+
+# \ power
+CONFIG_APM=y
+CONFIG_APM_DO_ENABLE=y
+CONFIG_INTEL_IDLE=y
+# / power
+
+# \ bus
+CONFIG_PCI=y
+CONFIG_PCCARD=m
+# / bus
+
+# \ driver
+CONFIG_PARPORT=m
+CONFIG_PARPORT_PC=m
+CONFIG_PARPORT_1284=y
+CONFIG_PRINTER=m
+CONFIG_BLK_DEV_FD=m
+# / driver

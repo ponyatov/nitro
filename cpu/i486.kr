@@ -1,0 +1,9 @@
+
+# \ cpu
+CONFIG_M486=y
+# / cpu
+
+# \ bus
+CONFIG_ISA=y
+CONFIG_ISAPNP=y
+# / bus
